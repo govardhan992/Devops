@@ -10,7 +10,7 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 
    1. Get the latest version of jenkins from  https://pkg.jenkins.io/redhat-stable/ and install
    
-    Run following commands:    
+ Run following commands:    
    
     sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
     sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
