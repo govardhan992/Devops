@@ -6,10 +6,10 @@ SonarQube is an open-source static testing analysis software, it is used by deve
 1. Need an EC2 instance (t2.medium)
 2. Install Java-11
 
-## Step 1: Update the server
+## Update the server
     sudo yum update -y
     
-## Step 2: Install java 11
+## Install java 11
     sudo amazon-linux-extras install java-openjdk11
 ## Setup PostgreSQL 10 Database For SonarQube
     amazon-linux-extras install postgresql10 vim epel -y
