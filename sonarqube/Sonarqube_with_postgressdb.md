@@ -10,7 +10,7 @@ SonarQube is an open-source static testing analysis software, it is used by deve
     sudo yum update -y
     
 ## Install java 11
-    sudo amazon-linux-extras install java-openjdk11
+    sudo amazon-linux-extras install java-openjdk11 -y
 ## Setup PostgreSQL 10 Database For SonarQube
     amazon-linux-extras install postgresql10 vim epel -y
     yum install -y postgresql-server postgresql-devel
