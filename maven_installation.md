@@ -19,7 +19,7 @@ Run Following commands
       
   vi ~/.bash_profile
   
-       M2_HOME=/etc/maven/apache-maven-3.9.0
+       M2_HOME=/opt/maven/apache-maven-3.9.0
        M2=$M2_HOME/bin
        PAHT=<Existing_PATH>:$M2_HOME:$M2
        
