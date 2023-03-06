@@ -56,7 +56,7 @@ Exit the psql prompt using the following command
 Switch to your sudo user using the exit command
 	  
     exit
-    Added below entries in `/etc/sysctl.conf`
+Added below entries in `/etc/sysctl.conf`
   ```sh 
   vm.max_map_count=524288
   fs.file-max=131072
