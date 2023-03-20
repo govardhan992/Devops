@@ -41,8 +41,17 @@ eksctl version
    
 5. Create your cluster and nodes
 ```sh
-eksctl create cluster --name dev-cluster --region us-east-2 --node-type t2.small
-```    
+eksctl create cluster --name dev-cluster --region us-east-2 --node-type t2.medium
+```  
+6. To delete the EKS clsuter
+```sh
+eksctl delete cluster cloudfreak-cluster --region ap-south-1
+```
+7.Validate your cluster using by creating by checking nodes and by creating a pod
+```sh
+kubectl get nodes
+kubectl run pod tomcat --image=tomcat
+```
 
 
    
